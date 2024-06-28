@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+
+.navbar__right> ul{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.navbar__right >ul >li>a{
+    color: black !important;
+    letter-spacing: 1px;
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+
+.navbar__righttext > a:hover{
+    background-color: orange !important;
+    color: white !important;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.navbar{
+    background-color: white;
+    border: 0;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.navbar__left > a {
+    color: black !important;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+}
+
+.navbar__left > a > span{
+    color: orange;
+}
+
+
+
+/* .navbar__right > a > button{
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: balck;
+    border: 1px solid orange;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    
+}
+
+.navbar__right > a > button:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+} */
+
+.navbar__righttext > hr{
+    color: orange;
+}
+

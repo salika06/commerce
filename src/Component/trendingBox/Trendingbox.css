@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.trendingcard {
+    height: 500px;
+    width: 270px;
+    margin: 20px;
+}
+
+.trendingcard>img{
+    height : 350px;
+    width: 270px;
+}
+
+.trendingcard__text > h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.trendingcard__rs{
+    margin-bottom: 10px;
+}
+
+.trendingcard__rs > p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    display: inline;
+    margin-right: 9px;
+}
+
+.trendingcard__rs2{
+    text-decoration: line-through;
+}
+
+.trendingcard__text > a{
+    background-color: orange;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px 13px;
+    border-radius: 7px;
+}
+
+.trendingcard__text > a:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid orange;
+}

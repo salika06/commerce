@@ -1,0 +1,24 @@
+.footercontainer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: orange;
+    color: white;
+}
+
+.footercontainer__logo{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.footercontainer__logo > a{
+    color: white;
+}
+
+.footercontainer__logo > a:hover{
+    color: black;
+}
